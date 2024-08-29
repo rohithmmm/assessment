@@ -41,3 +41,17 @@ The **Rewards Service** is a Spring Boot application designed to calculate and m
    ```bash
    git clone https://github.com/rohithmmm/assessment.git
    cd rewards-service
+
+## API Endpoints
+
+1. **Get Reward Points for a Customer**
+Endpoint: GET /rewards/{customerId}
+Description: Retrieves the reward points for a specific customer.
+Parameters:
+customerId: The ID of the customer.
+2. **Get Reward Points for All Customers Within a Date Range**
+Endpoint: GET /rewards/all
+Description: Calculates and retrieves the total reward points for all customers within a specified date range.
+Parameters:
+startDate: Start date for the calculation (format: YYYY-MM-DD).
+endDate: End date for the calculation (format: YYYY-MM-DD).
