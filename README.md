@@ -39,5 +39,5 @@ The **Rewards Service** is a Spring Boot application designed to calculate and m
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/rewards-service.git
+   git clone https://github.com/rohithmmm/assessment.git
    cd rewards-service
