@@ -50,7 +50,7 @@ Description: Retrieves the reward points for a specific customer.
 Parameters:
 customerId: The ID of the customer.
 2. **Get Reward Points for All Customers Within a Date Range**
-Endpoint: GET /rewards/all
+Endpoint: GET transactions/rewards/all
 Description: Calculates and retrieves the total reward points for all customers within a specified date range.
 Parameters:
 startDate: Start date for the calculation (format: YYYY-MM-DD).
